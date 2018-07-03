@@ -102,7 +102,7 @@
             // 
             // gpbTotal
             // 
-            this.gpbTotal.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.gpbTotal.BackColor = System.Drawing.SystemColors.ControlDark;
             this.gpbTotal.Controls.Add(this.btnCopiar);
             this.gpbTotal.Controls.Add(this.txtTotalGeral);
             this.gpbTotal.Location = new System.Drawing.Point(122, 201);
@@ -318,7 +318,7 @@
             // 
             // gpbNotas
             // 
-            this.gpbNotas.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.gpbNotas.BackColor = System.Drawing.SystemColors.Control;
             this.gpbNotas.Controls.Add(this.label2);
             this.gpbNotas.Controls.Add(this.label1);
             this.gpbNotas.Controls.Add(this.txtTotalN100);
@@ -521,7 +521,7 @@
             // 
             // gpbMoedas
             // 
-            this.gpbMoedas.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.gpbMoedas.BackColor = System.Drawing.SystemColors.Control;
             this.gpbMoedas.Controls.Add(this.label3);
             this.gpbMoedas.Controls.Add(this.label4);
             this.gpbMoedas.Controls.Add(this.txtTotalM1);
@@ -570,7 +570,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(455, 306);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnTotal);
